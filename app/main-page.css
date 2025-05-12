@@ -1,0 +1,32 @@
+Page {
+  background-color: #f0f0f0;
+}
+
+StackLayout {
+  padding: 20;
+}
+
+Label {
+  font-size: 24;
+  margin-bottom: 10;
+  color: #ffffff;
+  text-align: center;
+}
+
+TextField {
+  font-size: 20;
+  margin: 5;
+  padding: 10;
+  background-color: black;
+  border-width: 1;
+  border-color: #cccccc;
+  border-radius: 5;
+}
+
+Button {
+  font-size: 20;
+  margin: 5;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5;
+}

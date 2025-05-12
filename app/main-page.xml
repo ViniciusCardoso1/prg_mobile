@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <StackLayout padding="20" spacing="10">
+
+    <!-- Campo para o primeiro número -->
+    <TextField id="input1" hint="Digite o primeiro número" keyboardType="number" />
+
+    <!-- Campo para o segundo número -->
+    <TextField id="input2" hint="Digite o segundo número" keyboardType="number" />
+
+    <!-- Botões para as 4 operações -->
+    <Button text="Somar" tap="onSomar" />
+    <Button text="Subtrair" tap="onSubtrair" />
+    <Button text="Multiplicar" tap="onMultiplicar" />
+    <Button text="Dividir" tap="onDividir" />
+
+    <!-- Onde o resultado será exibido -->
+    <Label id="resultado" text="Resultado aparecerá aqui" textWrap="true" />
+
+  </StackLayout>
+</Page>
